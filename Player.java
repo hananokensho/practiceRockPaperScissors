@@ -1,17 +1,15 @@
-package rockPaperScissors;
 
 public class Player {
-    private String mySignal;
+    private int mySignal;
 
-    public String getMySignal() {
+    public int getMySignal() {
         return mySignal;
     }
 
-    public void setMySignal(String mySignal) {
+    public void setMySignal(int mySignal) {
         this.mySignal = mySignal;
     }
-
-    public Player(String mySignal) {
-        this.mySignal = mySignal;
-    }
+//    public Player(String mySignal) {
+//        this.mySignal = mySignal;
+//    }
 }
