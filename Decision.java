@@ -5,11 +5,13 @@ import java.util.Scanner;
 public class Decision {
     Player player;
     Pair pair;
+
+    // フィールドにインスタンスを代入
     public Decision(Player player , Pair pair) {
         this.player = player;
         this.pair = pair;
     }
-
+    // あいこの場合の処理
     public void inputNum() {
         System.out.print("あいこでっ >");
         //　プレイヤーのシグナル

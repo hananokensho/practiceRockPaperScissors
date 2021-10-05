@@ -25,6 +25,7 @@ public class Main {
             } else {
                 System.out.println("負けました。残念。");
                 continuous = true;
+
             }
         }
         System.out.println(totalCount + "回連続で勝ちました");
